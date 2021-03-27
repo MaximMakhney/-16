@@ -1,6 +1,7 @@
 *,body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper{
     width: 1160px;
@@ -42,4 +43,38 @@ ul li:last-child a{
 #head__avatar{
     position: absolute;
     right: 55px;
+}
+.wrapp__forms{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.wrapp__forms > ul{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: repeat(2, 50px);
+    grid-row-gap: 25px;
+    padding-top: 0;
+}
+.sign{
+    background-color: #cce5ff;
+    text-align: center;
+    vertical-align: middle;
+    color: #17448f;
+    padding-top: 15px;
+}
+.info, .password{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 5px;
 }
