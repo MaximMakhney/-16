@@ -56,7 +56,7 @@ h1{
 }
 .wrapp__forms > ul{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 5fr 5fr;
     grid-template-rows: repeat(2, 50px);
     grid-row-gap: 25px;
     padding-top: 0;
@@ -67,6 +67,16 @@ h1{
     vertical-align: middle;
     color: #17448f;
     padding-top: 15px;
+    text-transform: uppercase;
+}
+.change__photo{
+    display: flex;
+    flex-direction: column;
+}
+.change__photo > img{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
 }
 .info, .password{
     display: flex;
@@ -75,6 +85,32 @@ h1{
 input{
     margin-bottom: 15px;
     border-radius: 3px;
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 7px;
+}
+#file{
+    display: none;
+}
+.box__wrapp{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #6c757d;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+    color: white;
+    margin: 0 auto;
+}
+.box__wrapp:hover{
+    cursor: pointer;
+}
+button{
+    border-radius: 3px;
+    background-color: #6c757d;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    border: unset;
+    height: 30px;
 }

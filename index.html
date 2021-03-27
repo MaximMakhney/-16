@@ -21,13 +21,16 @@
             <h1>Settings</h1>
             <div class="wrapp__forms">
                 <ul>
-                    <li class="sign">AVATAR</li>
-                    <li class="sign">STUDENT'S INFO</li>
-                    <li class="sign">CHANGE</li>
+                    <li class="sign">avatar</li>
+                    <li class="sign">student's info</li>
+                    <li class="sign">change password</li>
                     <li>
-                        <form class="avatar" action="#" method="POST">
+                        <form class="change__photo" action="#" method="POST">
                             <img src="av_256.png" alt="#">
-                            <button type="submit">Choose photo</button>
+                            <input type="file" id="file">
+                            <label for="file">
+                                <div class="box__wrapp"><p>Choose photo</p></div>
+                            </label>
                         </form>
                     </li>
                     <li>
